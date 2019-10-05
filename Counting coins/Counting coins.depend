@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1570266284 source:/home/hope/Documents/GitHub/Algorithms-implementation-in-C-plus-plus/Counting coins/main.cpp
+	<iostream>
+	<array>
+
