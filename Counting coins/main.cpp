@@ -44,6 +44,8 @@ int main()
 
     cout<<" coins"<<endl;
     cout<<"****************************************************************"<<endl;         //Algorithm has started
+    cout<<"                     Algorithm Started                          "<<endl;
+    cout<<"****************************************************************"<<endl;
 
             while(true){
 
