@@ -62,6 +62,24 @@ printf(" ]");
 }
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
+void deleteNode(int key){                         //Delete a sertain Node with a key
+
+struct node *temp = head;
+
+while(temp->key != key){
+current = temp;
+temp = temp->next;
+}
+
+current->next = temp->next;
+temp->next = NULL;
+
+
+}
+
+
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 // Main method
 
 int main()
@@ -71,7 +89,10 @@ int main()
     insertFirst(3,30);
     insertFirst(4,40);
     insertFirst(5,50);
-    insertLast(1,32);
+    insertLast(6,32);
+    printList();
+    deleteNode(3);
+    printf("\n");
     printList();
     return 0;
 }
