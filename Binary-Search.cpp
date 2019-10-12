@@ -8,7 +8,8 @@ using namespace std;
 
 // Mid finder method to find the next mid point 
 int midFinder(int f, int l){
-int m = first + (l-f)/2;
+int m = first + (l-f)/2;                                                           // Binary search with O(log n) complexity
+// int m = first +((l - f) / (sar[l] - sar[f])) * (item - sar[f]);                 This is for Interpolation search with O(log (log n)) complexity 
 return m;
 }
 
