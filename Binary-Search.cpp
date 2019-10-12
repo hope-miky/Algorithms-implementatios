@@ -1,8 +1,8 @@
 #include <iostream>
 
 
-int sar[10] = {10, 14, 19, 26, 27, 31, 33, 35, 42, 44};         // the array to be searched on
-int first = 0, last = sizeof(sar)-1, mid = 0,item=0;                   // variables for the algorithm
+int sar[10] = {10, 14, 19, 26, 27, 31, 33, 35, 42, 44};    // the array to be searched on
+int first = 0, last = sizeof(sar)-1, mid = 0,item=0;       // variables for the algorithm
 
 using namespace std;
 
