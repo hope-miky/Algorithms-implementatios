@@ -7,12 +7,19 @@ int first = 0, last = sizeof(sar), mid = 0;
 using namespace std;
 
 int midFinder(int f, int l){
-int m = (f+l)/2;
+int m = (l-f)/2;
 return m;
 }
 
 int main()
 {
+    int item;
+    cout<<" Pleas enter the value to search:  ";
+    cin>>item;
+    mid = midFinder(first, last);
+    while(item!=mid){
+        
 
+    }
     return 0;
 }
