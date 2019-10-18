@@ -7,6 +7,8 @@ C++ programs
 * Counting coins
 * Insertion 
 * Buble sort
+* Binary-Search
+* Depth-first-traversal
   
 C programs
 ---------
