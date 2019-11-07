@@ -1,4 +1,4 @@
-vals =  [x for x in range(31)]
+vals =  [x for x in range(50)]
 
 
 for i in range(len(vals)):
