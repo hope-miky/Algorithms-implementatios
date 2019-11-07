@@ -1,20 +1,24 @@
 # Algorithms implementation in C and C++
-~~Implementation of various Algorithms in C and C++~~
+
  </br></br>
 
-C++ programs
+C++ 
 -------
 * Counting coins
 * Insertion 
 * Buble sort
 * Binary-Search
 * Depth-first-traversal
+* Binary tree
   
-C programs
+C 
 ---------
 * Linked list
 * Doubly-linked-list
 
+Python 
+---------
+* Fizz-Buzz
 
 ## **Author**
 <span style="color:blue">Tesfamichael Molla Ali</span> \
